@@ -1,7 +1,7 @@
 # Stock Price Prediction using Time Series Forecasting
 
 ## Overview
-This project aims to forecast stock prices using various time series forecasting algorithms, specifically ARIMA, SARIMA, and SARIMAX models. The data used is historical stock price data obtained from [source]. The main goal is to compare the performance of these models in predicting future stock prices based on past data.
+This project aims to forecast stock prices using various time series forecasting algorithms, specifically ARIMA, SARIMA, and SARIMAX models. The data used is historical stock price data obtained from Yahoo Finance stock data. The main goal is to compare the performance of these models in predicting future stock prices based on past data.
 
 ## Dependencies
 Ensure you have the following Python libraries installed:
@@ -16,7 +16,7 @@ pip install pandas numpy matplotlib statsmodels
 ```
 
 ## Dataset
-The dataset used in this project contains historical stock price data of [company name] from [start date] to [end date]. It includes the following columns:
+The dataset used in this project contains historical stock price data. It includes the following columns:
 - Date: The date of the trading day
 - Open: The opening price of the stock
 - High: The highest price reached during the day
