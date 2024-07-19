@@ -1,7 +1,9 @@
 # Stock Price Prediction using Time Series Forecasting
+![image](https://github.com/user-attachments/assets/32021325-6424-4ca7-b491-15b3bc69ce40)
 
-## Overview
-This project aims to forecast stock prices using various time series forecasting algorithms, specifically ARIMA, SARIMA, and SARIMAX models. The data used is historical stock price data obtained from Yahoo Finance stock data. The main goal is to compare the performance of these models in predicting future stock prices based on past data.
+
+## Buisness Goal
+The goal of this project is to predict future stock prices by analyzing historical data from Yahoo Finance. We will evaluate and compare the effectiveness of different forecasting methods to determine which one offers the most accurate predictions. The ultimate aim is to provide actionable insights that can help in making informed investment decisions.
 
 ## Dependencies
 Ensure you have the following Python libraries installed:
@@ -44,4 +46,5 @@ SARIMAX incorporates exogenous variables (such as external predictors) into the 
 4. **Model Evaluation**: Evaluate the model using appropriate metrics (e.g., Mean Squared Error, Mean Absolute Error).
 5. **Forecasting**: Generate forecasts using the trained model.
 6. **Visualization**: Visualize the observed vs. predicted values to assess the model's performance.
+
 
